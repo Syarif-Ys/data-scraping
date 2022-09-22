@@ -22,4 +22,5 @@ with open('housing.csv', 'w', encoding='utf8', newline='') as f:
             '\n', '')
 
         info = [title, location, price, area]
-        print(info)
+        thewriter.writerow(info)
+        # print(info)
